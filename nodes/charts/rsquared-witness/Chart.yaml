@@ -1,0 +1,3 @@
+apiVersion: v2
+name: rsquared-witness
+version: 1.0.0

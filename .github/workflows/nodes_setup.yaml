@@ -1,0 +1,24 @@
+name: nodes_setup
+on:
+  workflow_dispatch:
+env:
+  KUBECONFIG: ./kubeconfig.yaml
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./nodes
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v1.3.0
+      - name: Install kubeconfig
+        run: |
+          echo "${{ secrets.KUBE_CONFIG }}" > kubeconfig.yaml
+      - name: helmfile apply
+        env:
+          REVOLUTION_WHALES_WITNESS_ID: ${{ secrets.REVOLUTION_WHALES_WITNESS_ID }}
+          REVOLUTION_WHALES_WITNESS_PRIVATE_KEY: ${{ secrets.REVOLUTION_WHALES_WITNESS_PRIVATE_KEY }}
+        run: |
+          helmfile apply

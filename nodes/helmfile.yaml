@@ -1,0 +1,8 @@
+---
+releases:
+  - name: witness-revolution-whales
+    namespace: witness-revolution-whales
+    chart: ./charts/rsquared-witness
+    values:
+      - WITNESS_ID: {{ requiredEnv "REVOLUTION_WHALES_WITNESS_ID" }}
+      - WITNESS_PRIVATE_KEY: {{ requiredEnv "REVOLUTION_WHALES_WITNESS_PRIVATE_KEY" }}

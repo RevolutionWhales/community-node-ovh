@@ -1,0 +1,29 @@
+name: infrastructure_up
+on:
+  workflow_dispatch:
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        working-directory: ./infra
+    steps:
+      - uses: actions/checkout@v3
+      - uses: hashicorp/setup-terraform@v3
+      - name: init
+        run: terraform init
+      - name: apply
+        env:
+          OVH_APPLICATION_KEY: ${{ secrets.OVH_APPLICATION_KEY }}
+          OVH_APPLICATION_SECRET: ${{ secrets.OVH_APPLICATION_SECRET }}
+          OVH_CONSUMER_KEY: ${{ secrets.OVH_CONSUMER_KEY }}
+          TF_VAR_ovh_endpoint: ${{ vars.TF_VAR_ovh_endpoint }}
+          TF_VAR_ovh_project_name: ${{ vars.TF_VAR_ovh_project_name }}
+          TF_VAR_ovh_project_id: ${{ vars.TF_VAR_ovh_project_id }}
+          INSTANCE_TYPE: ${{ vars.INSTANCE_TYPE }}
+        run: terraform apply -auto-approve -var-file="./configs/${{ vars.INSTANCE_TYPE }}.tfvars"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: "*.tfstate"

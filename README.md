@@ -156,3 +156,8 @@ Saving the Output as a GitHub Secret:
 - **Repeat the Process for Saving a Secret**: Go back to Settings > Secrets and Variables > Actions in your GitHub repository.
 - **Create New Secret for Witness ID**: This time, name the secret {WITNESS_NAME}\_WITNESS_ID, following the same replacement rule for {WITNESS_NAME}.
 - **Paste the Output**: Enter the Base64-encoded witness ID into the "Value" field.
+
+### Step 8: Final Action: Trigger the "Nodes Up" GitHub Action
+- **Navigate to GitHub Actions:** In your GitHub repository, click on the "Actions" tab to view available workflows.
+- **Locate the "Nodes Up" Workflow:** Find the workflow named "Nodes Up" or a similar title that indicates it's responsible for bringing your nodes online.
+- **Initiate the Workflow:** Click on "Nodes Up" to open its details, then look for a button labeled "Run workflow" or something similar. Click this button to start the process.

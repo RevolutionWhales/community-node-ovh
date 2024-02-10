@@ -44,6 +44,21 @@ Configure Variables: Add and configure the following environment variables:
 - `TF_VAR_ovh_project_id`: Find your project ID in the OVH Public Cloud, under your [Project Details](https://www.ovh.com/manager/#/public-cloud/?onboarding). It is located in the left corner of the project page.
 - `INSTANCE_TYPE`: Specify your instance type. Options include "eu_small", "eu_medium", "eu_large", "us_small", "us_medium", and "us_large".
 
+## Step 4: Trigger the "Infrastructure Up" Action
+
+- **Navigate to GitHub Actions**: Go to your GitHub repository's main page and click on the "Actions" tab. This will show you a list of available workflows.
+
+- **Trigger the Workflow** Click on the workflow to open its details. You will see a button labeled "Run workflow" or similar. Click this button.
+
+- **Monitor the Workflow**: Once triggered, you can watch the progress of your workflow in real-time. GitHub Actions provides a detailed log of each step being executed, so you can see exactly what's happening. If there are any issues, the logs can help you identify and troubleshoot them.
+
+**Caution**: Managing Kubernetes Instances
+After finishing a work session with GitHub Actions, always check your OVH Cloud panel to confirm there's only one Kubernetes instance running. If you find multiple instances:
+
+- **Start Over**: Remove the ./infra/terraform.tfstate file from your repository to reset your setup. This file, which tracks state changes in your infrastructure, is automatically generated when you modify your cluster. Removing it will allow you to start fresh.
+
+**Remember, this caution helps prevent unintended costs and resource conflicts within your OVH Cloud account. Always keeping your cloud resources in check is crucial for maintaining a clean and cost-effective infrastructure setup.**
+
 ### Conclusion
 
 You have now successfully configured OVH API keys and set up the necessary GitHub secrets and environment variables for your project. This setup is crucial for managing your project's infrastructure securely and efficiently.

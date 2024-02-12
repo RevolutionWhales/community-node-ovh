@@ -1,3 +1,14 @@
+**Note:** This repository, including below instruction, is currently under heavy testing and development.
+
+## Prerequisites
+For Windows users, to interact with Command Line Interface (CLI), it's recommended to install Tabby & Git Bash.
+
+### **Downloads**
+
+- Tabby - [https://tabby.sh/](https://tabby.sh/)
+- Docker - [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
+- Git - [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
 # Phase 0: Use the Repository as a Template
 
 Use the repository as a template by clicking the "Use this template" button. This option allows you to create a new repository with the same directory structure and files as the original, but without copying the commit history.

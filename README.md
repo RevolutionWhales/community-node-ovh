@@ -5,9 +5,9 @@
 Before you start, ensure you have the necessary tools installed on your Windows system for interacting with the Command Line Interface (CLI).
 
 Required Software
-Tabby (Windows): A modern terminal application that will enhance your CLI experience. Download it from [https://tabby.sh/](https://tabby.sh/)
-Docker: Essential for running containerized applications. Install Docker from [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
-Git: Used for version control and to clone the R2-Wallet repository. Download Git from[https://git-scm.com/downloads](https://git-scm.com/downloads)
+- Tabby (Windows): A modern terminal application that will enhance your CLI experience. Download it from [https://tabby.sh/](https://tabby.sh/)
+- Docker: Essential for running containerized applications. Install Docker from [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
+- Git: Used for version control and to clone the R2-Wallet repository. Download Git from[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ## **Setting Up R2-Wallet & CLI for Beginners (Experimental)**
 

@@ -2,7 +2,7 @@
 
 
 ## Prerequisites
-Before you start, ensure you have the necessary tools installed on your Windows system for interacting with the Command Line Interface (CLI).
+Before you start, ensure you have the necessary tools installed on your operating system system for interacting with the Command Line Interface (CLI).
 
 Required Software
 - Tabby (Windows): A modern terminal application that will enhance your CLI experience. Download it from [https://tabby.sh/](https://tabby.sh/)

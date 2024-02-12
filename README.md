@@ -9,6 +9,14 @@ For Windows users, to interact with Command Line Interface (CLI), it's recommend
 - Docker - [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
 - Git - [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+# R2-Wallet & CLI for beginners
+
+To setup your R2 CLI wallet, read following instructions:
+- [https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Setting_Up_a_CLI_Wallet.pdf](https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Setting_Up_a_CLI_Wallet.pdf)
+- [https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Interacting_with_Your_CLI_Wallet.pdf](https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Interacting_with_Your_CLI_Wallet.pdf)
+
+The instructions above were created by Patrick _"Give me data sovereignty, or give me death!"_ Henry and posted on Telegram channel. Join "Ducks Parade" to give feedback or report any issues.
+
 # Phase 0: Use the Repository as a Template
 
 Use the repository as a template by clicking the "Use this template" button. This option allows you to create a new repository with the same directory structure and files as the original, but without copying the commit history.

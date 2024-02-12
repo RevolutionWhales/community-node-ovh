@@ -1,4 +1,4 @@
-**Note:** This repository, including below instruction, is currently under heavy testing and development.
+**Note:** This repository, including below instruction, is currently **under heavy testing and development**. Things will change over time.
 
 ## Prerequisites
 For Windows users, to interact with Command Line Interface (CLI), it's recommended to install Tabby & Git Bash.

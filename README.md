@@ -1,13 +1,28 @@
-**Note:** This repository, including below instruction, is currently under heavy testing and development.
+**Note:** This repository is currently under **heavy testing and development**. Please be aware that content and instructions are subject to change.
+
 
 ## Prerequisites
-For Windows users, to interact with Command Line Interface (CLI), it's recommended to install Tabby & Git Bash.
+Before you start, ensure you have the necessary tools installed on your operating system system for interacting with the Command Line Interface (CLI).
 
-### **Downloads**
+Required Software
+- Tabby (Windows): A modern terminal application that will enhance your CLI experience. Download it from [https://tabby.sh/](https://tabby.sh/)
+- Docker: Essential for running containerized applications. Install Docker from [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
+- Git: Used for version control and to clone the R2-Wallet repository. Download Git from[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-- Tabby - [https://tabby.sh/](https://tabby.sh/)
-- Docker - [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
-- Git - [https://git-scm.com/downloads](https://git-scm.com/downloads)
+## **Setting Up R2-Wallet & CLI for Beginners (Experimental)**
+
+Follow the steps below to set up your R2 CLI wallet. Please note that these instructions are experimental and may not fully align with the provided documentation.
+
+- The current R2-Wallet repository is hosted by lunacrafts at: https://github.com/lunacrafts/R2-Wallet.
+- There is a known discrepancy between the instructions in the lunacrafts/R2-Wallet repository and the PDF guides linked below. The PDF guides are likely to be more accurate for the R-Squared-Project/R2-Wallet-main.
+
+### Documentation Links
+For detailed setup and interaction instructions, refer to the following PDF guides created by Patrick _"Give me data sovereignty, or give me death!"_ Henry:
+
+- Setting Up a CLI Wallet: [https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Setting_Up_a_CLI_Wallet.pdf](https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Setting_Up_a_CLI_Wallet.pdf)
+- Interacting with Your CLI Wallet: [https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Interacting_with_Your_CLI_Wallet.pdf](https://github.com/RevolutionWhales/community-node-ovh/blob/main/docs/Interacting_with_Your_CLI_Wallet.pdf)
+
+Join the "Ducks Parade" Telegram channel to provide feedback, report issues, or get support from the community.
 
 # Phase 0: Use the Repository as a Template
 
